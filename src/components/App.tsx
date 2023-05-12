@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-import { Planette } from '../Planette/planette';
+import { Planette } from './Planette/planette';
 import jeu from '../jeuPlanette.png';
 
 function App() {

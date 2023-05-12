@@ -1,4 +1,4 @@
-import { Planette } from '../../Planette/planette';
+import { Planette } from '../../components/Planette/planette';
 
 export default function PlanettePage() {
     return (

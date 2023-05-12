@@ -11,6 +11,6 @@ export type Props = {
 
 export const MoveStar: React.FunctionComponent<Props> = (props) => {
     return (
-        <Image src={sun} x={props.position.x - 5} y={props.position.y - 5} alt='oui' width={100} height={100} />
+        <Image src={sun} alt='oui' />
     );
 };
