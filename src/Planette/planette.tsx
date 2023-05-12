@@ -27,10 +27,10 @@ export class Planette extends React.Component<Props, State> {
 
     constructor(props: Props) {
         super(props);
-        document.title = "SpaceInvader";
-        document.documentElement.style.height = "100%";
-        document.body.style.height = "100%";
-        document.body.style.margin = "0";
+        // document.title = "SpaceInvader";
+        // document.documentElement.style.height = "100%";
+        // document.body.style.height = "100%";
+        // document.body.style.margin = "0";
         this.state = {
             mouseX: 0,
             frame: 0,
@@ -80,8 +80,8 @@ export class Planette extends React.Component<Props, State> {
                         transformOrigin: "top left",
                         transform: lib.getFullScreenTransform(
                             {
-                                width: document.body.clientWidth,
-                                height: document.body.clientHeight
+                                width: 1000,
+                                height: 500
                             },
                             this.props.spaceSize
                         )

@@ -54,10 +54,6 @@ export const getFullScreenTransform = (
   screenSize: Size,
   spaceSize: Size
 ): string => {
-  /**
-   * 横幅いっぱいにしたときの高さ
-   * 表示領域の座標系
-   */
   const spaceHeightByFillWidthInScreen =
     (spaceSize.height * screenSize.width) / spaceSize.width;
   // 横幅いっぱいにして宇宙が表示領域内に収まるかどうか
