@@ -1,15 +1,14 @@
-import React from 'react';
-import Image from 'next/image';
-
-import { Planette } from '../Planette/planette';
-import jeu from '../jeuPlanette.png';
+import SpaceInvador from '../../assets/ennemies.png';
 
 function Home() {
     return (
-        <a href="/planette">
-            <Image src={jeu} alt='oui' width={100} height={100} />
-            <p>jeu de planette tkt il est bien</p>
-        </a>
+        <>{/*La balise <Link> bug */}
+            <a href="/spaceinvader">
+                <img src={SpaceInvador} alt='oui' width={150} height={100} />
+                <p>Ouais les Aliens</p>
+            </a>
+        </>
+
     );
 }
 
